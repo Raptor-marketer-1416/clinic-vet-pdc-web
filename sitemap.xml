@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://clinicvetpdc.com/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://clinicvetpdc.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clinicvetpdc.com/vet-clinic-playa-del-carmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clinicvetpdc.com/"/>
+  </url>
+
+  <url>
+    <loc>https://clinicvetpdc.com/certificado-de-viaje-mascotas-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://clinicvetpdc.com/vet-clinic-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es-MX" href="https://clinicvetpdc.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://clinicvetpdc.com/vet-clinic-playa-del-carmen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://clinicvetpdc.com/"/>
+  </url>
+
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/consulta-veterinaria-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/vacunacion-perros-gatos-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/esterilizacion-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/cirugia-veterinaria-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/dermatologia-veterinaria-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/especies-exoticas-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/estetica-canina-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clinicvetpdc.com/sobre-nosotros/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/contacto/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/aviso-de-privacidad/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://clinicvetpdc.com/terminos-y-condiciones/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

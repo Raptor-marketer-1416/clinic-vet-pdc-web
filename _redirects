@@ -1,0 +1,23 @@
+# Clinic Vet PDC — _redirects para Cloudflare Pages
+
+# Redirect 301 de la URL legacy /analisis-clinicos/ (preserva 17 clics/28d en GSC)
+/analisis-clinicos          /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/  301
+/analisis-clinicos/         /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/  301
+
+# Redirect del path antiguo del certificado de viaje (no estaba indexado pero por seguridad)
+/certificado-de-viaje       /certificado-de-viaje-mascotas-playa-del-carmen/  301
+/certificado-de-viaje/      /certificado-de-viaje-mascotas-playa-del-carmen/  301
+
+# 410 Gone para paths del WordPress hackeado — fuerza desindexación rápida
+/2024/*                     /404                                              410
+/wp-admin/*                 /404                                              410
+/wp-content/*               /404                                              410
+/wp-includes/*              /404                                              410
+/wp-login.php               /404                                              410
+/xmlrpc.php                 /404                                              410
+/wp-json/*                  /404                                              410
+
+# 410 para parámetros legacy de WordPress
+/?p=*                       /404                                              410
+/?page_id=*                 /404                                              410
+/?cat=*                     /404                                              410

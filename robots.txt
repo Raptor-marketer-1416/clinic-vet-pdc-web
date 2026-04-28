@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Bloqueo paths legacy del WordPress hackeado
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Disallow: /2024/
+Disallow: /?p=
+Disallow: /?page_id=
+
+Sitemap: https://clinicvetpdc.com/sitemap.xml

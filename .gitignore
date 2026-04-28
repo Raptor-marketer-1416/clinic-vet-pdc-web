@@ -1,0 +1,7 @@
+_temp/
+node_modules/
+.DS_Store
+*.log
+.wrangler/
+.env
+.env.local
