@@ -1,0 +1,9 @@
+# Disavow file - Clinic Vet PDC
+# Fecha: 2026-04-28
+# Razón: backlinks de PBN spam detectados durante el hack de WordPress (inyección de contenido casino/apuestas "romabet")
+# Identificados via Google Search Console URL Inspection API
+# Subir este archivo en: https://search.google.com/search-console/disavow-links
+
+domain:customdoorsandframes.com.au
+domain:kansha.vn
+domain:jacobverghese.info
