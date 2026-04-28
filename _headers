@@ -8,13 +8,15 @@
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.trustindex.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.trustindex.io; img-src 'self' data: https: blob:; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com; frame-src https://www.google.com https://cdn.trustindex.io; object-src 'none'; base-uri 'self'; form-action 'self';
 
-# Cache largo para assets estáticos
+# Cache assets estáticos
+# CSS y JS: 1 hora para permitir actualizaciones rápidas durante iteraciones
 /css/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
 /js/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=3600, must-revalidate
+# Imágenes: cache largo (rara vez cambian)
 /img/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=86400, must-revalidate
 
 # HTML con cache corto (revalidación)
 /*.html

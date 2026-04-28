@@ -416,15 +416,17 @@ section.compact { padding-block: var(--s-8); }
 
 /* Texto blanco sobre overlay oscuro (estilo Metropolitan) */
 .hero-bg-ready .hero-content {
-  margin-right: auto;
-  margin-left: 0;
-  text-align: left;
+  margin-right: auto !important;
+  margin-left: 0 !important;
+  text-align: left !important;
+  align-items: flex-start !important;
 }
+.hero-bg-ready .hero-content > * { text-align: left !important; }
 .hero-bg-ready .eyebrow { color: #fff; opacity: 0.92; }
-.hero-bg-ready .hero-title { color: #fff; }
-.hero-bg-ready .hero-subtitle { color: rgba(255, 255, 255, 0.92); }
-.hero-bg-ready .hero-trust { color: rgba(255, 255, 255, 0.95); justify-content: flex-start; }
-.hero-bg-ready .hero-ctas { justify-content: flex-start; }
+.hero-bg-ready .hero-title { color: #fff; text-align: left !important; }
+.hero-bg-ready .hero-subtitle { color: rgba(255, 255, 255, 0.92); text-align: left !important; }
+.hero-bg-ready .hero-trust { color: rgba(255, 255, 255, 0.95); justify-content: flex-start !important; }
+.hero-bg-ready .hero-ctas { justify-content: flex-start !important; }
 .hero-bg-ready .hero-trust svg { color: var(--c-secondary); }
 .hero-bg-ready .text-highlight {
   background: linear-gradient(180deg, transparent 60%, rgba(251, 171, 49, 0.7) 60%);
