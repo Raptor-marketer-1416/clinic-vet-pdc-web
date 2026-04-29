@@ -852,12 +852,12 @@ section.reviews-fullbleed,
   height: 100%;
 }
 .wave-divider.wave-top {
-  top: -1px;
-  transform: translateY(-99%);
+  top: 0;
+  transform: translateY(-100%);
 }
 .wave-divider.wave-bottom {
-  bottom: -1px;
-  transform: translateY(99%);
+  bottom: 0;
+  transform: translateY(100%);
 }
 /* Onda superior: ondula de derecha a izquierda */
 .wave-divider.wave-top svg {
