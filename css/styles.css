@@ -904,6 +904,25 @@ section.compact { padding-block: var(--s-8); }
 .footer-bottom-links a { color: rgba(255,255,255,0.5); }
 .footer-bottom-links a:hover { color: #fff; }
 
+/* Crédito final — Sitio desarrollado por Raptor Marketer */
+.footer-credit {
+  text-align: center;
+  padding: var(--s-4) 0 var(--s-2);
+  margin-top: var(--s-3);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-family: var(--font-heading);
+  font-size: var(--text-xs);
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.45);
+}
+.footer-credit a {
+  color: rgba(255,255,255,0.7);
+  font-weight: 700;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+.footer-credit a:hover { color: var(--c-secondary); }
+
 /* ---------- Floating CTAs (skill botones-conversion oficial Raptor Marketer) ---------- */
 /* Botón WhatsApp flotante */
 .floating-wa-btn {
