@@ -7,15 +7,8 @@
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
 
-  /* ---------- Header scroll ---------- */
-  const header = $('.site-header');
-  if (header && !header.classList.contains('solid')) {
-    const onScroll = () => {
-      header.classList.toggle('scrolled', window.scrollY > 50);
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
-  }
+  /* Header scroll listener removido — la skill encabezado-transparente usa position:absolute,
+     el header desaparece naturalmente al scrollear, no necesita listener */
 
   /* ---------- Mobile menu ---------- */
   const menuToggle = $('.menu-toggle');
