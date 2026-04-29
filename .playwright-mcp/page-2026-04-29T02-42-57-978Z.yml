@@ -1,0 +1,246 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Clinic Vet PDC — Inicio" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Clinic Vet PDC" [ref=e6]
+      - navigation "Navegación principal" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Inicio" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "Servicios" [ref=e12] [cursor=pointer]:
+              - /url: /servicios/
+          - listitem [ref=e13]:
+            - link "Certificado de Viaje" [ref=e14] [cursor=pointer]:
+              - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+          - listitem [ref=e15]:
+            - link "Sobre Nosotros" [ref=e16] [cursor=pointer]:
+              - /url: /sobre-nosotros/
+          - listitem [ref=e17]:
+            - link "Contacto" [ref=e18] [cursor=pointer]:
+              - /url: /contacto/
+          - listitem [ref=e19]:
+            - link "EN" [ref=e20] [cursor=pointer]:
+              - /url: /vet-clinic-playa-del-carmen/
+              - generic [ref=e21]: 🇺🇸
+              - text: EN
+  - navigation "Migas de pan" [ref=e22]:
+    - list [ref=e23]:
+      - listitem [ref=e24]:
+        - link "Inicio" [ref=e25] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e26]: / Servicios
+  - main [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]: Servicios veterinarios
+        - heading "Servicios Veterinarios en Playa del Carmen" [level=1] [ref=e32]
+        - paragraph [ref=e33]: Atención médica integral para perros, gatos y especies exóticas. Equipo de diagnóstico completo, consultorio cat-friendly y especialidad en dermatología veterinaria.
+        - generic [ref=e34]:
+          - link "📞 Llamar — 984 803 6212" [ref=e35] [cursor=pointer]:
+            - /url: tel:+529848036212
+          - link "💬 WhatsApp" [ref=e36] [cursor=pointer]:
+            - /url: https://wa.me/529848036212
+      - generic [ref=e38]: Foto servicios pendiente
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - strong [ref=e42]: Clinic Vet PDC ofrece servicios veterinarios completos en Playa del Carmen
+        - text: que incluyen consulta médica, vacunación, esterilización, cirugía general y especializada, dermatología veterinaria, atención a especies exóticas, estética canina, análisis clínicos, rayos X y ultrasonido. Cada servicio se realiza en nuestro consultorio con equipo propio, sin subcontratar — desde el diagnóstico hasta el tratamiento, todo en un solo lugar.
+      - paragraph [ref=e43]: Llevamos más de 20 años atendiendo a las mascotas de Playa del Carmen y eso nos ha permitido construir una clínica integral. No improvisamos servicios ni mandamos a clientes a otros lugares para diagnóstico — tenemos rayos X digital, ultrasonido, electrocardiograma y laboratorio en sitio.
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]: Nuestros servicios
+        - heading "Atención médica integral" [level=2] [ref=e48]
+        - paragraph [ref=e49]: Cada servicio con equipo propio, sin subcontratar.
+      - generic [ref=e50]:
+        - link "Consulta veterinaria Diagnóstico clínico completo, plan de tratamiento personalizado y seguimiento. Ver servicio →" [ref=e51] [cursor=pointer]:
+          - /url: /servicios/consulta-veterinaria-playa-del-carmen/
+          - img [ref=e53]
+          - heading "Consulta veterinaria" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Diagnóstico clínico completo, plan de tratamiento personalizado y seguimiento.
+          - generic [ref=e57]: Ver servicio →
+        - link "Estética canina Baño, corte higiénico y comercial, oídos y uñas. Sin sedación. Ver servicio →" [ref=e58] [cursor=pointer]:
+          - /url: /servicios/estetica-canina-playa-del-carmen/
+          - img [ref=e60]
+          - heading "Estética canina" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Baño, corte higiénico y comercial, oídos y uñas. Sin sedación.
+          - generic [ref=e66]: Ver servicio →
+        - 'link "Vacunación de perros y gatos Esquemas completos: antirrábica oficial, séxtuple, triple felina y refuerzos anuales. Ver servicio →" [ref=e67] [cursor=pointer]':
+          - /url: /servicios/vacunacion-perros-gatos-playa-del-carmen/
+          - img [ref=e69]
+          - heading "Vacunación de perros y gatos" [level=3] [ref=e71]
+          - paragraph [ref=e72]: "Esquemas completos: antirrábica oficial, séxtuple, triple felina y refuerzos anuales."
+          - generic [ref=e73]: Ver servicio →
+        - link "Esterilización Cirugía con anestesia inhalada, monitoreo continuo y recuperación supervisada. Ver servicio →" [ref=e74] [cursor=pointer]:
+          - /url: /servicios/esterilizacion-playa-del-carmen/
+          - img [ref=e76]
+          - heading "Esterilización" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Cirugía con anestesia inhalada, monitoreo continuo y recuperación supervisada.
+          - generic [ref=e82]: Ver servicio →
+        - link "Cirugía veterinaria Cirugía general y especializada con quirófano propio y anestesia inhalada. Ver servicio →" [ref=e83] [cursor=pointer]:
+          - /url: /servicios/cirugia-veterinaria-playa-del-carmen/
+          - img [ref=e85]
+          - heading "Cirugía veterinaria" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Cirugía general y especializada con quirófano propio y anestesia inhalada.
+          - generic [ref=e89]: Ver servicio →
+        - link "Dermatología veterinaria Especialidad del Dr. Pérez Castillo. Alergias, dermatitis, otitis crónica. Ver servicio →" [ref=e90] [cursor=pointer]:
+          - /url: /servicios/dermatologia-veterinaria-playa-del-carmen/
+          - img [ref=e92]
+          - heading "Dermatología veterinaria" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Especialidad del Dr. Pérez Castillo. Alergias, dermatitis, otitis crónica.
+          - generic [ref=e97]: Ver servicio →
+        - link "Especies exóticas Aves, reptiles, hurones, conejos y pequeños mamíferos. Ver servicio →" [ref=e98] [cursor=pointer]:
+          - /url: /servicios/especies-exoticas-playa-del-carmen/
+          - img [ref=e100]
+          - heading "Especies exóticas" [level=3] [ref=e103]
+          - paragraph [ref=e104]: Aves, reptiles, hurones, conejos y pequeños mamíferos.
+          - generic [ref=e105]: Ver servicio →
+        - link "Análisis, Rayos X y Ultrasonido Hemograma, química, urianálisis, rayos X digital y ultrasonido en sitio. Ver servicio →" [ref=e106] [cursor=pointer]:
+          - /url: /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/
+          - img [ref=e108]
+          - heading "Análisis, Rayos X y Ultrasonido" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Hemograma, química, urianálisis, rayos X digital y ultrasonido en sitio.
+          - generic [ref=e112]: Ver servicio →
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e117]: ✈ Servicio destacado
+        - heading "Certificado de viaje internacional" [level=2] [ref=e118]
+        - paragraph [ref=e119]: ¿Vas a viajar con tu mascota a Estados Unidos, Europa o destinos nacionales? Emitimos certificados GBG, CDC y SENASICA con asesoría completa.
+        - link "Ver el pilar de certificado de viaje →" [ref=e120] [cursor=pointer]:
+          - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+      - img "Certificado de viaje para mascotas en Clinic Vet PDC" [ref=e122]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]: Servicios diferenciadores
+        - heading "Lo que pocos en Playa del Carmen ofrecen" [level=2] [ref=e127]
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - heading "Consultorio cat-friendly" [level=3] [ref=e135]
+          - paragraph [ref=e136]: Tu gato no debería pasar miedo en cada consulta. Espacio diseñado para reducir el estrés felino con manejo respetuoso.
+        - generic [ref=e137]:
+          - img [ref=e139]
+          - heading "Atención bilingüe" [level=3] [ref=e142]
+          - paragraph [ref=e143]:
+            - text: Atendemos clientes que hablan inglés todos los días.
+            - link "See our English page →" [ref=e144] [cursor=pointer]:
+              - /url: /vet-clinic-playa-del-carmen/
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]: Equipo
+        - heading "Nuestro equipo de diagnóstico en sitio" [level=2] [ref=e149]
+      - paragraph [ref=e150]: "Una clínica veterinaria moderna no puede depender solo de la observación clínica. En Clinic Vet PDC contamos con:"
+      - list [ref=e151]:
+        - listitem [ref=e152]:
+          - strong [ref=e153]: Rayos X digital
+          - generic [ref=e154]: Fracturas, problemas torácicos, abdominales
+        - listitem [ref=e155]:
+          - strong [ref=e156]: Ultrasonido
+          - generic [ref=e157]: Abdominal y cardiológico
+        - listitem [ref=e158]:
+          - strong [ref=e159]: Electrocardiograma (ECG)
+          - generic [ref=e160]: Evaluación cardíaca pre-quirúrgica
+        - listitem [ref=e161]:
+          - strong [ref=e162]: Laboratorio en sitio
+          - generic [ref=e163]: Hemograma, química sanguínea, urianálisis
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]: Resolvemos tus dudas
+        - heading "Preguntas frecuentes" [level=2] [ref=e168]
+      - generic [ref=e169]:
+        - group [ref=e170]:
+          - generic "¿Necesito agendar cita o atienden sin cita previa?" [ref=e171] [cursor=pointer]
+        - group [ref=e172]:
+          - generic "¿Cuánto cuesta una consulta veterinaria?" [ref=e173] [cursor=pointer]
+        - group [ref=e174]:
+          - generic "¿Atienden a domicilio?" [ref=e175] [cursor=pointer]
+        - group [ref=e176]:
+          - generic "¿Qué formas de pago aceptan?" [ref=e177] [cursor=pointer]
+        - group [ref=e178]:
+          - generic "¿Atienden gatos sin estresarlos?" [ref=e179] [cursor=pointer]
+    - generic [ref=e182]:
+      - heading "Agenda tu cita hoy" [level=2] [ref=e183]
+      - paragraph [ref=e184]: Estamos en Calle 30 Nte 304-Local 1, Gonzalo Guerrero, Playa del Carmen.
+      - generic [ref=e185]:
+        - link "📞 Llamar — 984 803 6212" [ref=e186] [cursor=pointer]:
+          - /url: tel:+529848036212
+        - link "💬 WhatsApp" [ref=e187] [cursor=pointer]:
+          - /url: https://wa.me/529848036212
+  - contentinfo [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - img "Clinic Vet PDC" [ref=e192]
+          - paragraph [ref=e193]: Clínica veterinaria con +20 años en Playa del Carmen. Atención bilingüe, dermatología y consultorio cat-friendly.
+        - generic [ref=e194]:
+          - heading "Servicios" [level=4] [ref=e195]
+          - list [ref=e196]:
+            - listitem [ref=e197]:
+              - link "Consulta veterinaria" [ref=e198] [cursor=pointer]:
+                - /url: /servicios/consulta-veterinaria-playa-del-carmen/
+            - listitem [ref=e199]:
+              - link "Vacunación" [ref=e200] [cursor=pointer]:
+                - /url: /servicios/vacunacion-perros-gatos-playa-del-carmen/
+            - listitem [ref=e201]:
+              - link "Esterilización" [ref=e202] [cursor=pointer]:
+                - /url: /servicios/esterilizacion-playa-del-carmen/
+            - listitem [ref=e203]:
+              - link "Cirugía" [ref=e204] [cursor=pointer]:
+                - /url: /servicios/cirugia-veterinaria-playa-del-carmen/
+            - listitem [ref=e205]:
+              - link "Dermatología" [ref=e206] [cursor=pointer]:
+                - /url: /servicios/dermatologia-veterinaria-playa-del-carmen/
+            - listitem [ref=e207]:
+              - link "Especies exóticas" [ref=e208] [cursor=pointer]:
+                - /url: /servicios/especies-exoticas-playa-del-carmen/
+            - listitem [ref=e209]:
+              - link "Estética canina" [ref=e210] [cursor=pointer]:
+                - /url: /servicios/estetica-canina-playa-del-carmen/
+            - listitem [ref=e211]:
+              - link "Análisis y diagnóstico" [ref=e212] [cursor=pointer]:
+                - /url: /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/
+        - generic [ref=e213]:
+          - heading "Empresa" [level=4] [ref=e214]
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "Sobre Nosotros" [ref=e217] [cursor=pointer]:
+                - /url: /sobre-nosotros/
+            - listitem [ref=e218]:
+              - link "Certificado de Viaje" [ref=e219] [cursor=pointer]:
+                - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+            - listitem [ref=e220]:
+              - link "English / EN" [ref=e221] [cursor=pointer]:
+                - /url: /vet-clinic-playa-del-carmen/
+            - listitem [ref=e222]:
+              - link "Contacto" [ref=e223] [cursor=pointer]:
+                - /url: /contacto/
+        - generic [ref=e224]:
+          - heading "Contacto" [level=4] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - text: Calle 30 Nte 304-Local 1
+              - text: Gonzalo Guerrero, Playa del Carmen, Q.R.
+            - listitem [ref=e228]:
+              - link "984 803 6212" [ref=e229] [cursor=pointer]:
+                - /url: tel:+529848036212
+            - listitem [ref=e230]:
+              - link "clinicvetpdc@gmail.com" [ref=e231] [cursor=pointer]:
+                - /url: mailto:clinicvetpdc@gmail.com
+            - listitem [ref=e232]: Lun-Vie 9-19 · Sáb 9-16
+      - generic [ref=e233]:
+        - generic [ref=e234]: © 2026 Clinic Vet PDC. Todos los derechos reservados.
+        - generic [ref=e235]:
+          - link "Aviso de Privacidad" [ref=e236] [cursor=pointer]:
+            - /url: /aviso-de-privacidad/
+          - link "Términos y Condiciones" [ref=e237] [cursor=pointer]:
+            - /url: /terminos-y-condiciones/
+      - generic [ref=e238]:
+        - text: Sitio web desarrollado por
+        - link "Raptor Marketer" [ref=e239] [cursor=pointer]:
+          - /url: https://raptormarketer.com
+  - button "Contactar por WhatsApp a Clinic Vet PDC" [ref=e240] [cursor=pointer]:
+    - img [ref=e241]
