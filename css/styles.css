@@ -431,6 +431,14 @@ section.compact { padding-block: var(--s-8); }
 .hero-bg-ready .container-wide { position: relative; z-index: 2; }
 
 /* Texto blanco sobre overlay oscuro (estilo Metropolitan) */
+/* Container del hero pegado al borde izquierdo para dejar respirar el video/imagen */
+.hero-bg-ready .container-wide {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  padding-left: clamp(1.5rem, 5vw, 5rem) !important;
+  padding-right: var(--s-5) !important;
+}
 .hero-bg-ready .hero-content {
   margin-right: auto !important;
   margin-left: 0 !important;
