@@ -524,6 +524,14 @@ section.compact { padding-block: var(--s-8); }
   color: #ffffff;
   position: relative;
 }
+/* Esconder placeholders sin imagen real en hero-compact (cuadros azules feos) */
+.hero-compact .hero-media:has(.placeholder) {
+  display: none;
+}
+.hero-compact:has(.hero-media .placeholder) .hero-grid {
+  grid-template-columns: 1fr !important;
+  max-width: 900px;
+}
 .hero-compact .eyebrow { color: rgba(255,255,255,0.92); }
 .hero-compact .hero-title { font-size: var(--text-4xl); color: #ffffff; }
 .hero-compact .hero-subtitle { color: rgba(255,255,255,0.92); }
@@ -1233,9 +1241,16 @@ section.reviews-fullbleed,
 .tab-panel.active { display: block; animation: fadeIn .3s ease-out; }
 
 /* ---------- Reveal on scroll ---------- */
+/* Default: VISIBLE (defensivo — si JS falla, contenido sigue mostrándose) */
 .reveal {
-  opacity: 0; transform: translateY(30px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity .6s ease, transform .6s ease;
+}
+/* JS añade clase .reveal-init cuando IO está listo, ahí sí escondemos */
+.js-reveal-ready .reveal:not(.visible) {
+  opacity: 0;
+  transform: translateY(30px);
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 

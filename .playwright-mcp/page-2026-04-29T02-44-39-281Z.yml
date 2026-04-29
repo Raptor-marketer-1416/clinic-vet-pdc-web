@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Clinic Vet PDC — Inicio" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Clinic Vet PDC" [ref=e6]
+      - navigation "Navegación principal" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Inicio" [ref=e10] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e11]:
+            - link "Servicios" [ref=e12] [cursor=pointer]:
+              - /url: /servicios/
+          - listitem [ref=e13]:
+            - link "Certificado de Viaje" [ref=e14] [cursor=pointer]:
+              - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+          - listitem [ref=e15]:
+            - link "Sobre Nosotros" [ref=e16] [cursor=pointer]:
+              - /url: /sobre-nosotros/
+          - listitem [ref=e17]:
+            - link "Contacto" [ref=e18] [cursor=pointer]:
+              - /url: /contacto/
+          - listitem [ref=e19]:
+            - link "EN" [ref=e20] [cursor=pointer]:
+              - /url: /vet-clinic-playa-del-carmen/
+              - generic [ref=e21]: 🇺🇸
+              - text: EN
+  - navigation "Migas de pan" [ref=e22]:
+    - list [ref=e23]:
+      - listitem [ref=e24]:
+        - link "Inicio" [ref=e25] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e26]:
+        - text: /
+        - link "Servicios" [ref=e27] [cursor=pointer]:
+          - /url: /servicios/
+      - listitem [ref=e28]: / Consulta veterinaria
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Servicio veterinario
+        - heading "Consulta Veterinaria en Playa del Carmen" [level=1] [ref=e34]
+        - paragraph [ref=e35]: Evaluación clínica completa para perros, gatos y especies exóticas. Atención bilingüe, equipo de diagnóstico en sitio y seguimiento post-consulta.
+        - generic [ref=e36]:
+          - link "📞 Llamar — 984 803 6212" [ref=e37] [cursor=pointer]:
+            - /url: tel:+529848036212
+          - link "💬 WhatsApp" [ref=e38] [cursor=pointer]:
+            - /url: https://wa.me/529848036212
+      - generic [ref=e40]: Foto consulta pendiente
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]: ¿Qué incluye?
+        - heading "¿Qué incluye una consulta veterinaria con nosotros?" [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - strong [ref=e47]: Una consulta veterinaria en Clinic Vet PDC incluye
+        - text: evaluación clínica completa, revisión de signos vitales, examen físico de cabeza a cola, diagnóstico inicial y plan de tratamiento personalizado. Si tu mascota requiere estudios adicionales (rayos X, ultrasonido o análisis clínicos), los realizamos en la misma visita sin necesidad de derivarte a otro lugar. La consulta dura entre 30 y 45 minutos.
+      - paragraph [ref=e48]:
+        - text: Cada consulta empieza por
+        - strong [ref=e49]: escucharte
+        - text: ": cuándo notaste el cambio, qué síntomas viste, qué come, su rutina, antecedentes. Esa conversación es la mitad del diagnóstico — un veterinario que solo revisa al animal sin entender el contexto se pierde la mayor parte del cuadro."
+      - paragraph [ref=e50]: "Después viene el examen físico completo: peso, temperatura, frecuencia cardíaca y respiratoria, palpación abdominal, revisión de oídos, ojos, boca, piel y articulaciones. Si encontramos algo que requiere confirmación, hacemos los estudios necesarios en la misma cita."
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]: Cuándo traerla
+        - heading "Cuándo es buen momento para traer a tu mascota" [level=2] [ref=e55]
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "Revisión de rutina" [level=3] [ref=e58]
+          - paragraph [ref=e59]: Cada 6 a 12 meses, aunque tu mascota se vea sana. Detectamos problemas tempranos en sangre, dientes y peso antes de que sean clínicamente evidentes.
+        - generic [ref=e60]:
+          - heading "Cambios de comportamiento" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Come menos, duerme más, está irritable, deja de jugar, se esconde, se rasca. Casi siempre hay una causa médica detrás.
+        - generic [ref=e63]:
+          - heading "Síntomas digestivos" [level=3] [ref=e64]
+          - paragraph [ref=e65]: Vómito, diarrea, estreñimiento, falta de apetito por más de 24 horas en perros adultos o 12 horas en cachorros y gatos.
+        - generic [ref=e66]:
+          - heading "Problemas de piel o pelo" [level=3] [ref=e67]
+          - paragraph [ref=e68]:
+            - text: Comezón persistente, costras, caída de pelo localizada. Si es recurrente, derivamos a
+            - link "Dermatología" [ref=e69] [cursor=pointer]:
+              - /url: /servicios/dermatologia-veterinaria-playa-del-carmen/
+            - text: .
+        - generic [ref=e70]:
+          - heading "Antes y después de un viaje" [level=3] [ref=e71]
+          - paragraph [ref=e72]:
+            - text: Pre-revisión para
+            - link "certificado de viaje internacional" [ref=e73] [cursor=pointer]:
+              - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+            - text: o evaluación post-viaje.
+        - generic [ref=e74]:
+          - heading "Segunda opinión" [level=3] [ref=e75]
+          - paragraph [ref=e76]: Si ya consultaste en otro lugar y no estás convencido del diagnóstico, tráenos los estudios y los revisamos contigo.
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]: Antes de venir
+        - heading "Cómo prepararte para tu cita" [level=2] [ref=e81]
+      - list [ref=e82]:
+        - listitem [ref=e83]:
+          - strong [ref=e84]: Trae la cartilla de vacunación
+          - text: y cualquier estudio previo (radiografías, análisis, recetas).
+        - listitem [ref=e85]:
+          - strong [ref=e86]: Anota los síntomas
+          - text: "que has visto: cuándo empezaron, frecuencia, qué los desencadena."
+        - listitem [ref=e87]:
+          - strong [ref=e88]: "Para perros:"
+          - text: tráelo con correa o arnés. Si es nervioso, llámanos antes y te damos opciones.
+        - listitem [ref=e89]:
+          - strong [ref=e90]: "Para gatos:"
+          - text: en transportadora rígida con una toalla con olor familiar dentro. Te recibimos directo en el área cat-friendly.
+        - listitem [ref=e91]:
+          - strong [ref=e92]: "Para exóticos:"
+          - text: tráelo en su jaula o transportador habitual, con la dieta usual.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: Equipo
+        - heading "Equipo de diagnóstico en sitio" [level=2] [ref=e97]
+      - paragraph [ref=e98]: "No te mandamos a otro lugar. En la misma visita podemos hacer:"
+      - list [ref=e99]:
+        - listitem [ref=e100]: 🩻 Rayos X digital
+        - listitem [ref=e101]: 🌊 Ultrasonido
+        - listitem [ref=e102]: ❤️ Electrocardiograma
+        - listitem [ref=e103]: 🧪 Análisis clínicos en sitio
+        - listitem [ref=e104]: 💉 Aplicación de tratamientos
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]: Resolvemos tus dudas
+        - heading "Preguntas frecuentes" [level=2] [ref=e109]
+      - generic [ref=e110]:
+        - group [ref=e111]:
+          - generic "¿Cuánto cuesta una consulta veterinaria en Playa del Carmen?" [ref=e112] [cursor=pointer]
+        - group [ref=e113]:
+          - generic "¿Cuánto dura una consulta?" [ref=e114] [cursor=pointer]
+        - group [ref=e115]:
+          - generic "¿Atienden urgencias el mismo día?" [ref=e116] [cursor=pointer]
+        - group [ref=e117]:
+          - generic "¿Atienden en inglés?" [ref=e118] [cursor=pointer]
+        - group [ref=e119]:
+          - generic "¿Atienden gatos sin estresarlos?" [ref=e120] [cursor=pointer]
+        - group [ref=e121]:
+          - generic "¿Puedo llevar a mi mascota sin agendar cita?" [ref=e122] [cursor=pointer]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]: Servicios relacionados
+        - heading "También te puede interesar" [level=2] [ref=e127]
+      - generic [ref=e128]:
+        - link "Vacunación Esquemas completos para perros y gatos. Ver servicio →" [ref=e129] [cursor=pointer]:
+          - /url: /servicios/vacunacion-perros-gatos-playa-del-carmen/
+          - heading "Vacunación" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Esquemas completos para perros y gatos.
+          - generic [ref=e132]: Ver servicio →
+        - link "Análisis y diagnóstico Rayos X, ultrasonido y laboratorio en sitio. Ver servicio →" [ref=e133] [cursor=pointer]:
+          - /url: /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/
+          - heading "Análisis y diagnóstico" [level=3] [ref=e134]
+          - paragraph [ref=e135]: Rayos X, ultrasonido y laboratorio en sitio.
+          - generic [ref=e136]: Ver servicio →
+        - link "Dermatología Especialidad para problemas crónicos de piel. Ver servicio →" [ref=e137] [cursor=pointer]:
+          - /url: /servicios/dermatologia-veterinaria-playa-del-carmen/
+          - heading "Dermatología" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Especialidad para problemas crónicos de piel.
+          - generic [ref=e140]: Ver servicio →
+    - generic [ref=e143]:
+      - heading "Agenda tu consulta" [level=2] [ref=e144]
+      - paragraph [ref=e145]: Te orientamos sin compromiso.
+      - generic [ref=e146]:
+        - link "📞 Llamar — 984 803 6212" [ref=e147] [cursor=pointer]:
+          - /url: tel:+529848036212
+        - link "💬 WhatsApp" [ref=e148] [cursor=pointer]:
+          - /url: https://wa.me/529848036212
+  - contentinfo [ref=e149]:
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - img "Clinic Vet PDC" [ref=e153]
+          - paragraph [ref=e154]: Clínica veterinaria con +20 años en Playa del Carmen. Atención bilingüe, dermatología y consultorio cat-friendly.
+        - generic [ref=e155]:
+          - heading "Servicios" [level=4] [ref=e156]
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "Consulta veterinaria" [ref=e159] [cursor=pointer]:
+                - /url: /servicios/consulta-veterinaria-playa-del-carmen/
+            - listitem [ref=e160]:
+              - link "Vacunación" [ref=e161] [cursor=pointer]:
+                - /url: /servicios/vacunacion-perros-gatos-playa-del-carmen/
+            - listitem [ref=e162]:
+              - link "Esterilización" [ref=e163] [cursor=pointer]:
+                - /url: /servicios/esterilizacion-playa-del-carmen/
+            - listitem [ref=e164]:
+              - link "Cirugía" [ref=e165] [cursor=pointer]:
+                - /url: /servicios/cirugia-veterinaria-playa-del-carmen/
+            - listitem [ref=e166]:
+              - link "Dermatología" [ref=e167] [cursor=pointer]:
+                - /url: /servicios/dermatologia-veterinaria-playa-del-carmen/
+            - listitem [ref=e168]:
+              - link "Especies exóticas" [ref=e169] [cursor=pointer]:
+                - /url: /servicios/especies-exoticas-playa-del-carmen/
+            - listitem [ref=e170]:
+              - link "Estética canina" [ref=e171] [cursor=pointer]:
+                - /url: /servicios/estetica-canina-playa-del-carmen/
+            - listitem [ref=e172]:
+              - link "Análisis y diagnóstico" [ref=e173] [cursor=pointer]:
+                - /url: /servicios/analisis-clinicos-rayos-x-ultrasonido-playa-del-carmen/
+        - generic [ref=e174]:
+          - heading "Empresa" [level=4] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Sobre Nosotros" [ref=e178] [cursor=pointer]:
+                - /url: /sobre-nosotros/
+            - listitem [ref=e179]:
+              - link "Certificado de Viaje" [ref=e180] [cursor=pointer]:
+                - /url: /certificado-de-viaje-mascotas-playa-del-carmen/
+            - listitem [ref=e181]:
+              - link "English / EN" [ref=e182] [cursor=pointer]:
+                - /url: /vet-clinic-playa-del-carmen/
+            - listitem [ref=e183]:
+              - link "Contacto" [ref=e184] [cursor=pointer]:
+                - /url: /contacto/
+        - generic [ref=e185]:
+          - heading "Contacto" [level=4] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - text: Calle 30 Nte 304-Local 1
+              - text: Gonzalo Guerrero, Playa del Carmen, Q.R.
+            - listitem [ref=e189]:
+              - link "984 803 6212" [ref=e190] [cursor=pointer]:
+                - /url: tel:+529848036212
+            - listitem [ref=e191]:
+              - link "clinicvetpdc@gmail.com" [ref=e192] [cursor=pointer]:
+                - /url: mailto:clinicvetpdc@gmail.com
+            - listitem [ref=e193]: Lun-Vie 9-19 · Sáb 9-16
+      - generic [ref=e194]:
+        - generic [ref=e195]: © 2026 Clinic Vet PDC. Todos los derechos reservados.
+        - generic [ref=e196]:
+          - link "Aviso de Privacidad" [ref=e197] [cursor=pointer]:
+            - /url: /aviso-de-privacidad/
+          - link "Términos y Condiciones" [ref=e198] [cursor=pointer]:
+            - /url: /terminos-y-condiciones/
+      - generic [ref=e199]:
+        - text: Sitio web desarrollado por
+        - link "Raptor Marketer" [ref=e200] [cursor=pointer]:
+          - /url: https://raptormarketer.com
+  - button "Contactar por WhatsApp a Clinic Vet PDC" [ref=e201] [cursor=pointer]:
+    - img [ref=e202]

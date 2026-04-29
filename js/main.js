@@ -34,6 +34,7 @@
   /* ---------- Reveal on scroll ---------- */
   const reveals = $$('.reveal');
   if (reveals.length && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('js-reveal-ready');
     const io = new IntersectionObserver(entries => {
       entries.forEach(e => {
         if (e.isIntersecting) {
