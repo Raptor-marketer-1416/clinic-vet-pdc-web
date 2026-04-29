@@ -804,21 +804,78 @@ section.compact { padding-block: var(--s-8); }
   border-radius: var(--r-lg); aspect-ratio: 1/1; object-fit: cover; box-shadow: var(--sh-lg);
 }
 
-/* ---------- Reviews wrapper (TrustIndex) ---------- */
-.reviews {
+/* ---------- Reviews wrapper (TrustIndex) — Full-bleed con ondas animadas ---------- */
+.reviews-fullbleed {
   background: var(--c-primary);
   color: #fff;
-  border-radius: var(--r-xl);
-  padding: var(--s-8);
+  position: relative;
+  padding: var(--s-12) var(--s-5);
+  margin-block: 0;
+  /* Full-bleed: rompe el container padre */
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+.reviews-fullbleed .reviews-inner {
+  max-width: var(--w-normal);
+  margin-inline: auto;
   text-align: center;
 }
-.reviews h2 { color: #fff; }
-.reviews-lead { color: rgba(255,255,255,0.85); margin-bottom: var(--s-6); }
+.reviews-fullbleed h2 { color: #fff; }
+.reviews-fullbleed .reviews-lead { color: rgba(255,255,255,0.88); margin-bottom: var(--s-6); }
 .trustindex-mount { background: #fff; border-radius: var(--r-lg); padding: var(--s-3); margin-block: var(--s-5); }
 .trustindex-mount:empty::before {
-  content: "Widget de TrustIndex se carga aquí — Alberto pega el embed HTML";
+  content: "Widget de TrustIndex se carga aquí";
   display: block; color: var(--c-text-soft); padding: var(--s-6);
   font-family: var(--font-heading); font-size: var(--text-sm);
+}
+
+/* Ondas SVG animadas — separadores de sección */
+.wave-divider {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  line-height: 0;
+  pointer-events: none;
+}
+.wave-divider svg {
+  position: relative;
+  display: block;
+  width: 200%;
+  height: 100%;
+}
+.wave-divider.wave-top {
+  top: -1px;
+  transform: translateY(-99%);
+}
+.wave-divider.wave-bottom {
+  bottom: -1px;
+  transform: translateY(99%);
+}
+/* Onda superior: ondula de derecha a izquierda */
+.wave-divider.wave-top svg {
+  animation: waveSlideLeft 18s linear infinite;
+}
+/* Onda inferior: ondula de izquierda a derecha (para variedad visual) */
+.wave-divider.wave-bottom svg {
+  animation: waveSlideRight 22s linear infinite;
+}
+@keyframes waveSlideLeft {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes waveSlideRight {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+/* Pausar animaciones si el usuario prefiere reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .wave-divider svg { animation: none !important; }
+}
+@media (max-width: 768px) {
+  .wave-divider { height: 50px; }
 }
 
 /* ---------- NAP + Map ---------- */
