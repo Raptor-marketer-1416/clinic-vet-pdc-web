@@ -805,17 +805,22 @@ section.compact { padding-block: var(--s-8); }
 }
 
 /* ---------- Reviews wrapper (TrustIndex) — Full-bleed con ondas animadas ---------- */
+section.reviews-fullbleed,
 .reviews-fullbleed {
-  background: var(--c-primary);
+  background-color: var(--c-primary) !important;
+  background-image: none !important;
   color: #fff;
   position: relative;
-  padding: var(--s-12) var(--s-5);
-  margin-block: 0;
+  padding: var(--s-12) var(--s-5) !important;
   /* Full-bleed: rompe el container padre */
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  box-sizing: border-box;
+  overflow: visible;
 }
+.reviews-fullbleed h2 { color: #fff; }
+.reviews-fullbleed .eyebrow { color: rgba(255,255,255,0.88); }
 .reviews-fullbleed .reviews-inner {
   max-width: var(--w-normal);
   margin-inline: auto;
