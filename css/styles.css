@@ -829,24 +829,24 @@ section.reviews-fullbleed,
   position: absolute;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   pointer-events: none;
 }
-/* Onda superior — extiende el azul hacia arriba en forma de ola */
+/* Onda superior — pronunciada estilo donedrinks: pico arriba + valle moderado abajo */
 .reviews-fullbleed::before {
   bottom: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath d='M0,80 L0,40 C240,0 480,0 720,40 C960,80 1200,80 1440,40 L1440,80 Z' fill='%233aabd1'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 140' preserveAspectRatio='none'%3E%3Cpath d='M0,140 L0,80 C180,10 540,10 720,80 C900,120 1260,120 1440,80 L1440,140 Z' fill='%233aabd1'/%3E%3C/svg%3E");
 }
-/* Onda inferior — extiende el azul hacia abajo en forma de ola */
+/* Onda inferior — espejo invertido: valle abajo pronunciado + pico moderado arriba */
 .reviews-fullbleed::after {
   top: 100%;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 80' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L0,40 C240,80 480,80 720,40 C960,0 1200,0 1440,40 L1440,0 Z' fill='%233aabd1'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 140' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L0,60 C180,130 540,130 720,60 C900,20 1260,20 1440,60 L1440,0 Z' fill='%233aabd1'/%3E%3C/svg%3E");
 }
 @media (max-width: 768px) {
   .reviews-fullbleed::before,
-  .reviews-fullbleed::after { height: 45px; }
+  .reviews-fullbleed::after { height: 80px; }
 }
 .reviews-fullbleed .reviews-inner {
   max-width: var(--w-normal);
