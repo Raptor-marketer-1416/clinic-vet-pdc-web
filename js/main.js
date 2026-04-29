@@ -231,12 +231,15 @@
     closeCallModal();
   });
 
-  // ── Tracking de links wa.me directos del sitio (hero, CTAs) ─
-  // Dispara whatsapp_click sin abrir modal — para CTAs que ya tienen mensaje predefinido
+  // ── Todos los links a WhatsApp del sitio fuerzan apertura del modal ─
+  // Esto garantiza captura uniforme de nombre + servicio + evento whatsapp_click
+  // para conversiones consistentes en Google Ads (sin importar desde qué CTA se origine)
   $$('a[href*="wa.me/"], a[href*="api.whatsapp.com"]').forEach(link => {
-    link.addEventListener('click', () => {
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'whatsapp_click', lead_source: 'direct_link' });
+    // Excluir el botón "Ver todas en Google" o links externos no-conversión si los hubiera
+    if (link.classList.contains('skip-modal')) return;
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      openWaModal();
     });
   });
 
